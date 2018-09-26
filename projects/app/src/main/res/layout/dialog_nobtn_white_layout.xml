@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Both_Match_style"
+    android:background="@drawable/littledialog_coner"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/Both_Wrap_style"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/marg_10px"
+        android:paddingLeft="@dimen/marg_20px"
+        android:paddingRight="@dimen/marg_20px"
+        android:paddingTop="@dimen/marg_10px">
+
+        <TextView
+            android:id="@+id/tv_dialog_content"
+            style="@style/Both_Wrap_style"
+            android:gravity="center"
+            android:singleLine="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/size_28pt" />
+    </LinearLayout>
+
+</LinearLayout>

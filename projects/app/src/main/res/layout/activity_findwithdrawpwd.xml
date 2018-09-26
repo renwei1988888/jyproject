@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        style="@style/headerWeight"
+        layout="@layout/top_layout" />
+
+    <LinearLayout
+        style="@style/relativeLayoutWeight"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.12">
+
+            <ImageView
+                style="@style/Both_Wrap_style"
+                android:layout_centerVertical="true"
+                android:layout_toLeftOf="@id/center_img"
+                android:src="@mipmap/findwpwd_top_left" />
+
+            <ImageView
+                android:id="@+id/center_img"
+                style="@style/Both_Wrap_style"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/marg_20px"
+                android:layout_marginRight="@dimen/marg_20px"
+                android:src="@mipmap/addidcard_top_center" />
+
+            <ImageView
+                style="@style/Both_Wrap_style"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@id/center_img"
+                android:src="@mipmap/findwpwd_top_right_one" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1">
+
+            <TextView
+                style="@style/Both_Wrap_style"
+                android:text="@string/auth_text"
+                android:textColor="@color/orange" />
+
+            <TextView
+                style="@style/Both_Wrap_style"
+                android:text="@string/sms_text"
+                android:textColor="@color/gray" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:paddingBottom="@dimen/marg_20px"
+            android:paddingLeft="@dimen/marg_20px"
+            android:paddingRight="@dimen/marg_20px"
+            android:paddingTop="@dimen/marg_20px">
+
+            <TextView
+                android:id="@+id/idcard_tv"
+                style="@style/Both_Wrap_style"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/idcard_no"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_24pt" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="@dimen/marg_2px"
+                android:layout_height="@dimen/marg_20px"
+                android:layout_toRightOf="@+id/card_tv"
+                android:background="@color/gray" />
+
+            <EditText
+                android:id="@+id/idcard_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/view"
+                android:hint="@string/idcard_hint" />
+
+        </RelativeLayout>
+
+        <view
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/marg_2px"
+            android:background="@color/gray" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.68">
+
+            <TextView
+                android:id="@+id/toauth_tv"
+                style="@style/Both_Wrap_style"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:text="@string/auth_sure"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

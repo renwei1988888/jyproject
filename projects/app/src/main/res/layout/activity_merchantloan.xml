@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        style="@style/headerWeight"
+        layout="@layout/top_layout" />
+
+    <LinearLayout
+        style="@style/relativeLayoutWeight"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"
+            android:background="@mipmap/merchantloan_top_background"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marg_20px"
+                android:text="@string/merchantloan_top"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_40pt" />
+
+            <View
+                android:layout_width="@dimen/marg_40px"
+                android:layout_height="@dimen/marg_2px"
+                android:layout_marginLeft="@dimen/marg_20px"
+                android:background="@color/white" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marg_20px"
+                android:text="@string/merchantloan_top_below"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_26pt" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1"
+            android:background="@color/orange"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/merchant_myloan" />
+
+                    <TextView
+                        android:id="@+id/myloan_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/merchantloan_myloan"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+                <view
+                    android:layout_width="@dimen/marg_2px"
+                    android:layout_height="@dimen/marg_30px"
+                    android:layout_centerInParent="true"
+                    android:textColor="@color/black" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0.5"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@mipmap/merchant_mydiscount" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/merchantloan_mydiscount"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15">
+
+            <View
+                android:id="@+id/sview"
+                android:layout_width="@dimen/marg_10px"
+                android:layout_height="@dimen/marg_20px"
+                android:layout_alignParentLeft="true"
+                android:background="@color/orange" />
+
+            <TextView
+                android:id="@+id/suggesion_one_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marg_20px"
+                android:layout_toRightOf="@+id/sview"
+                android:text="@string/merchantloan_myloanwhy"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_44pt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/suggesion_one_tv"
+                android:layout_marginLeft="@dimen/marg_20px"
+                android:text="@string/merchantloan_myloanwhydesc"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/size_30pt" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15">
+
+            <TextView
+                android:id="@+id/loanamount_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marg_20px"
+                android:text="@string/merchantloan_myloanwhy"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_30pt" />
+
+            <TextView
+                android:id="@+id/myloanneedtime_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@color/gray"
+                android:text="@string/merchantloan_myloanneedtime"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_30pt" />
+
+            <TextView
+                android:id="@+id/loanmount_desc_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/loanamount_tv"
+                android:layout_marginLeft="@dimen/marg_20px"
+                android:text="@string/merchantloan_myloanrate"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/size_24pt" />
+
+            <ProgressBar
+                android:id="@+id/loan_progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/loanmount_desc_tv" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15">
+
+            <View
+                android:id="@+id/mview"
+                android:layout_width="@dimen/marg_10px"
+                android:layout_height="@dimen/marg_20px"
+                android:layout_alignParentLeft="true"
+                android:background="@color/orange" />
+
+            <TextView
+                android:id="@+id/suggesion_two_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marg_20px"
+                android:layout_toRightOf="@+id/mview"
+                android:text="@string/merchantloan_myloanupamount"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_44pt" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/suggesion_two_tv"
+                android:layout_marginLeft="@dimen/marg_20px"
+                android:text="@string/merchantloan_myloanamount"
+                android:textColor="@color/gray"
+                android:textSize="@dimen/size_30pt" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/merchantloan_shopsituation"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/merchantloan_personlcredit"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/merchantloan_nogiveup"
+                        android:textColor="@color/black" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.05">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="@dimen/marg_20px"
+                android:text="@string/merchantloan_suggestion"
+                android:textColor="@color/orange"
+                android:textSize="@dimen/size_24pt" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,274 @@
+<resources>
+    <string name="app_name">经营</string>
+
+    <string name="refreshing">正在刷新…</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+
+    <!--导航-->
+    <string name="receivables">收款</string>
+    <string name="marketing">营销</string>
+    <string name="member">会员</string>
+    <string name="business">经营</string>
+
+    <!--商户贷-->
+    <string name="merchantloan_top">做生意，就用微阵商户贷</string>
+    <string name="merchantloan_top_below">急速放贷，随借随还</string>
+    <string name="merchantloan_mydiscount">我的优惠</string>
+    <string name="merchantloan_myloan">我的贷款</string>
+    <string name="merchantloan_myloanwhy">扩大经营首选，信用贷款</string>
+    <string name="merchantloan_myloanwhydesc">无需抵押担保、借款时间长</string>
+    <string name="merchantloan_myloanneedtime">还需要38天经营数据</string>
+    <string name="merchantloan_myloanrate">日利率最低0.03%等额本金</string>
+    <string name="merchantloan_myloanupamount">提升额度秘籍</string>
+    <string name="merchantloan_myloanamount">商户信用最高可贷100万</string>
+    <string name="merchantloan_shopsituation">提升账号\n经营状况</string>
+    <string name="merchantloan_personlcredit">保存良好\n的个人信用</string>
+    <string name="merchantloan_nogiveup">按时还款\n无逾期记录</string>
+    <string name="merchantloan_suggestion">保持良好习惯，有机会获得更高额度</string>
+
+    <!--增加支付宝账号-->
+    <string name="ali_account">支付宝账号</string>
+    <string name="ali_hint">请输入支付宝账号(手机号或邮箱)</string>
+    <string name="over">完成</string>
+
+    <!--增加银行卡-->
+    <string name="add_notice">为保证您的资金安全，请绑定账户本人的银行卡</string>
+    <string name="add_card">卡号</string>
+    <string name="add_card_hint">请输入银行卡号</string>
+    <string name="add_result_hint">中国建设银行储蓄卡 （0011）</string>
+    <string name="next_desc">下一步</string>
+
+    <!--提现设置-->
+    <string name="changewithdrawpwd">修改提现密码</string>
+    <string name="findwithdrawpwd">找回提现密码</string>
+
+    <!--找回提现密码-第一步-->
+    <string name="auth_text">身份证验证</string>
+    <string name="sms_text">短信验证</string>
+    <string name="idcard_no">身份证号</string>
+    <string name="idcard_hint">请输入身份证号</string>
+    <string name="auth_sure">验证信息</string>
+
+    <!--找回提现密码-第二步-->
+    <string name="phone_text">手机号</string>
+    <string name="phone_hint">137*****098</string>
+    <string name="phone_getcode">获取验证码</string>
+    <string name="yzm">验证码</string>
+    <string name="yzm_hint">请输入验证码</string>
+
+    <!--常见问题-->
+    <string name="what_balance">什么是余额</string>
+    <string name="what_recharge">如何充值</string>
+    <string name="what_withdraw">如何提现</string>
+    <string name="what_addbank">如何添加银行卡</string>
+    <string name="what_deletebank">如何删除银行卡</string>
+    <string name="what_wallet">钱包的功能</string>
+
+    <!--问题详情-->
+    <string name="what_balance_detail">余额是您账号中剩余的金,可用来提现,或者支付.
+    余额是您账号中剩余的金,可用来提现,或者支付.
+    余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.\n\n
+        余额是您账号中剩余的金,可用来提现,或者支付.
+    余额是您账号中剩余的金,可用来提现,或者支付.
+    余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+    余额是您账号中剩余的金,可用来提现,或者支付.
+    余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.\n\n
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+    余额是您账号中剩余的金,可用来提现,或者支付.
+    余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+    余额是您账号中剩余的金,可用来提现,或者支付.
+    余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.\n
+        \n
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+    余额是您账号中剩余的金,可用来提现,或者支付.
+    余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+        余额是您账号中剩余的金,可用来提现,或者支付.
+    </string>
+
+    <!--我的银行卡-->
+    <string name="mybankcard_toadd">添加银行卡</string>
+    <string name="mybankcard_defaut">默认卡</string>
+    <string name="mybankcard_savecard">储蓄账户</string>
+
+    <!--银行卡详情-->
+    <string name="mybankcard_mb">每笔支付限额</string>
+    <string name="mybankcard_mr">每日支付限额</string>
+    <string name="mybankcard_money">¥1000000.00</string>
+    <string name="mybankcard_release">解除绑定</string>
+
+    <!--我的钱包-->
+    <string name="wallet_allmoney">营业款</string>
+    <string name="wallet_wwicon">旺旺币</string>
+    <string name="wallet_recharge">充值</string>
+    <string name="wallet_withdraw">提现</string>
+    <string name="wallet_addno">未添加</string>
+    <string name="wallet_addyes">已添加</string>
+    <string name="wallet_moneydetail">收款明细</string>
+    <string name="wallet_mybankcard">我的银行卡</string>
+    <string name="wallet_myalipay">我的支付宝</string>
+    <string name="wallet_paysetting">支付设置</string>
+    <string name="wallet_commonproblem">常见问题</string>
+
+    <!--赚取赏金-->
+    <string name="earnreward_list">区域排名</string>
+    <string name="earnreward_amount">累计赏金 (元)</string>
+
+    <!--银行卡验证-->
+    <string name="mybankcard_cardtext">银行卡</string>
+    <string name="mybankcard_cardtype">中国建设银行储蓄卡</string>
+    <string name="mybankcard_cardidtext">卡   号</string>
+    <string name="mybankcard_cardid">6222 0219 0088 3532 890</string>
+    <string name="mybankcard_suggestion">提醒：后续只能绑定该持卡人的银行卡</string>
+    <string name="mybankcard_holdertext">持卡人</string>
+    <string name="mybankcard_holder">春晓</string>
+    <string name="mybankcard_idtext">身份证</string>
+    <string name="mybankcard_id">430988198802228790</string>
+    <string name="mybankcard_phonetext">手机号</string>
+    <string name="mybankcard_phonehint">请输入银行预留手机号</string>
+    <string name="mybankcard_agrren">同意</string>
+    <string name="mybankcard_protocal">《用户服务协议》</string>
+    <string name="mybankcard_validattext">验证信息</string>
+    <string name="mybankcard_registerphone">注册手机号</string>
+    <string name="mybankcard_phoneno">15608339543</string>
+
+    <!--服务协议-->
+    <string name="payprotocal_pay">支付服务协议</string>
+    <string name="payprotocal_code">支付银联二维码服务协议</string>
+
+    <!--我的支付宝-->
+    <string name="myalipay_addaccount">添加支付宝账号</string>
+    <string name="myalipay_nodata">暂无数据</string>
+
+    <!--营业设置-->
+    <string name="bussetting_systemnotice">系统通知</string>
+    <string name="bussetting_systemnotice_desc">包括升级、提现到账和资金变动</string>
+    <string name="bussetting_noice">收款到钱语音提醒</string>
+    <string name="bussetting_noice_desc">包括收款到账和会员激活通知</string>
+    <string name="bussetting_recharge">启动/禁用会员充值</string>
+    <string name="bussetting_recharge_desc">启动会员充值后用户可直接充值</string>
+    <string name="bussetting_change">启动/禁用会员积分兑换</string>
+    <string name="bussetting_change_desc">启动积分兑换后用户可直接兑换</string>
+    <string name="bussetting_sms">领取优惠券后短信通知</string>
+    <string name="bussetting_sms_desc">用户领取优惠券后自动短信通知</string>
+    <string name="bussetting_membermanage">店员管理</string>
+    <string name="bussetting_production">使用教程</string>
+    <string name="bussetting_suggestion">产品建议</string>
+
+    <!--生意诊断-->
+    <string name="diagnosis_coldmost">生意最清淡的日期</string>
+    <string name="diagnosis_amount">平均交易金额 (元)</string>
+    <string name="diagnosis_sum">平均交易笔数 (笔)</string>
+    <string name="diagnosis_newcustomer">新顾客平均比例</string>
+    <string name="diagnosis_oldcustomer">老顾客平均比例</string>
+    <string name="diagnosis_hotmost">生意最火爆的日期</string>
+    <string name="diagnosis_customerspecial">人群特征</string>
+    <string name="diagnosis_scan">立即查看</string>
+
+    <!--顾客画像-->
+    <string name="portrait_sex">性别分布</string>
+    <string name="portrait_age">年龄分布</string>
+    <string name="portrait_work">职业分布</string>
+    <string name="protrait_sex_male">男性</string>
+    <string name="protrait_sex_female">女性</string>
+    <string name="protrait_twetytothirty">20-30岁</string>
+    <string name="protrait_thirtytofouty">30-40岁</string>
+    <string name="protrait_white">白领</string>
+    <string name="protrait_teacher">教师</string>
+
+    <!--设置支付密码-->
+    <string name="paypwdset_new">请设置支付密码</string>
+    <string name="paypwdset_keyboard">安全输入键盘</string>
+    <string name="paypwdset_new_confirm">请确认新支付密码</string>
+    <string name="withdrawpwd">请输入提现密码</string>
+    <string name="withdrawpwd_confirm">请在此输入，以确认密码</string>
+    <string name="withdrawpwd_suggestion">不是登录密码或联系数字</string>
+    <string name="withdrawpwd_error">密码输入错误！</string>
+
+    <!--经营首页-->
+    <string name="business_anlysis">营业分析</string>
+    <string name="business_customer_anlysis">顾客分析</string>
+    <string name="business_mywallet">我的钱包</string>
+    <string name="business_setting">营业设置</string>
+    <string name="business_intelligentsale">智能售卖</string>
+    <string name="business_diagnosis">生意诊断</string>
+    <string name="business_customer_portrait">顾客画像</string>
+    <string name="business_report">9月份经营报告</string>
+    <string name="business_report_desc">生意好坏 全面洞察</string>
+    <string name="business_loan">商户经营性贷款</string>
+    <string name="business_loan_desc">日利率最低0.03%等额本金</string>
+    <string name="business_school">经营者实战学院</string>
+    <string name="business_school_desc">汇集全国优秀门店经营案例</string>
+
+    <!--营业分析-->
+    <string name="busanl_today">今日</string>
+    <string name="busanl_weeky">本周</string>
+    <string name="busanl_monthy">本月</string>
+
+    <!-- QR_Code -->
+    <string name="button_ok">OK</string>
+    <string name="msg_camera_framework_bug">Sorry, the Android camera encountered a problem. You may need to restart the
+        device.
+    </string>
+    <string name="msg_bulk_mode_scanned">Bulk mode: barcode scanned and saved</string>
+    <string name="scan_text">放入框中即可进行二维码扫描</string>
+    <string name="contents_contact">Contact info</string>
+    <string name="contents_email">Email address</string>
+    <string name="contents_location">Geographic coordinates</string>
+    <string name="contents_phone">Phone number</string>
+    <string name="contents_sms">SMS address</string>
+    <string name="contents_text">Plain text</string>
+    <string name="preferences_vibrate">preferences_vibrate</string>
+    <string name="preferences_play_beep">preferences_play_beep</string>
+    <string name="preferences_actions_title">When a barcode is found\u2026</string>
+    <string name="preferences_copy_to_clipboard_title">Copy to clipboard</string>
+    <string name="preferences_decode_1D_title">1D barcodes</string>
+    <string name="preferences_decode_Data_Matrix_title">Data Matrix</string>
+    <string name="preferences_decode_QR_title">QR Codes</string>
+    <string name="preferences_play_beep_title">Beep</string>
+    <string name="preferences_remember_duplicates_summary">Store multiple scans of the same barcode in History</string>
+    <string name="preferences_remember_duplicates_title">Remember duplicates</string>
+    <string name="preferences_scanning_title">When scanning for barcodes, decode\u2026</string>
+    <string name="preferences_supplemental_summary">Try to retrieve more information about the barcode contents</string>
+    <string name="preferences_supplemental_title">Retrieve more info</string>
+    <string name="preferences_vibrate_title">Vibrate</string>
+    <string name="preview_msg">&#160;preview pages available,click Download for more.</string>
+
+    <!--充值-->
+    <string name="recharge_way">充值方式</string>
+    <string name="recharge_bank_js">中国建设银行卡</string>
+    <string name="recharge_bank_gs">中国工商银行卡</string>
+    <string name="recharge_amount">充值金额</string>
+    <string name="recharge_rmb">充值方式</string>
+    <string name="recharge_most">该卡本次最多可充值方10000元</string>
+    <string name="recharge_please">请输入金额</string>
+    <string name="rmb">¥</string>
+
+
+</resources>

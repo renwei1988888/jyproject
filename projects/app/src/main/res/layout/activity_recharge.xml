@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        style="@style/headerWeight"
+        layout="@layout/top_layout" />
+
+    <LinearLayout
+        style="@style/relativeLayoutWeight"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/way_rl"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/marg_20px"
+                android:text="@string/recharge_way"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/marg_20px"
+                android:layout_toLeftOf="@+id/arrow_img"
+                android:text="@string/recharge_bank_js"
+                android:textColor="@color/black" />
+
+            <ImageView
+                android:id="@+id/arrow_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/marg_20px"
+                android:src="@mipmap/arrow_right_28x28" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/marg_1px"
+            android:background="@color/gray_e8" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.15"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/bottom_ll"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/marg_20px"
+                    android:text="@string/recharge_amount"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bottom_ll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/marg_20px"
+                android:layout_marginTop="@dimen/marg_20px"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/marg_20px"
+                    android:text="@string/rmb"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/size_32pt" />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/marg_20px"
+                    android:background="@null"
+                    android:hint="@string/recharge_please"
+                    android:textSize="@dimen/size_26pt" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/marg_1px"
+            android:background="@color/gray_e8" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.75">
+
+            <TextView
+                android:id="@+id/s_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/marg_20px"
+                android:layout_marginTop="@dimen/marg_20px"
+                android:text="@string/recharge_most"
+                android:textColor="@color/gray" />
+
+            <TextView
+                android:id="@+id/toRecharge_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/s_tv"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/marg_50px"
+                android:layout_marginRight="@dimen/marg_50px"
+                android:layout_marginTop="@dimen/marg_60px"
+                android:background="@drawable/mybank_radius_10px_none"
+                android:gravity="center"
+                android:paddingBottom="@dimen/marg_20px"
+                android:paddingTop="@dimen/marg_20px"
+                android:text="充值"
+                android:textColor="@color/white"
+                android:textSize="@dimen/size_36pt" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

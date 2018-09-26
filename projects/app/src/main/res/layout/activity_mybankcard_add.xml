@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        style="@style/headerWeight"
+        layout="@layout/top_layout" />
+
+    <LinearLayout
+        style="@style/relativeLayoutWeight"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/add_notice"
+                android:textColor="@color/black" />
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/marg_2px"
+            android:background="@color/gray_e8" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.12"
+            android:paddingLeft="@dimen/marg_20px"
+            android:paddingRight="@dimen/marg_20px">
+
+            <TextView
+                android:id="@+id/card_tv"
+                style="@style/Both_Wrap_style"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:text="@string/add_card"
+                android:textColor="@color/black"
+                android:textSize="@dimen/size_28pt" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="@dimen/marg_1px"
+                android:layout_height="@dimen/marg_30px"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/marg_20px"
+                android:layout_toRightOf="@+id/card_tv"
+                android:background="@color/gray" />
+
+            <EditText
+                android:id="@+id/card_edt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/marg_20px"
+                android:layout_marginRight="@dimen/marg_20px"
+                android:layout_toRightOf="@id/view"
+                android:background="@null"
+                android:hint="@string/add_card_hint"
+                android:inputType="number"
+                android:maxLength="32"
+                android:textSize="@dimen/size_30pt" />
+
+            <ImageView
+                android:id="@+id/toscan_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/marg_20px"
+                android:src="@mipmap/mybank_camera_icon" />
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/marg_1px"
+            android:background="@color/gray_e8" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.1">
+
+            <ImageView
+                android:id="@+id/bankicon_img"
+                style="@style/Both_Wrap_style"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/marg_20px"
+                android:src="@mipmap/mybankcard_icon" />
+
+            <TextView
+                android:id="@+id/des_tv"
+                style="@style/Both_Wrap_style"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/marg_10px"
+                android:layout_toRightOf="@+id/bankicon_img"
+                android:text="@string/add_result_hint"
+                android:textColor="@color/business_font_color_s" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.65">
+
+            <TextView
+                android:id="@+id/tonext_tv"
+                style="@style/Match_Wrap_style"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="@dimen/marg_40px"
+                android:layout_marginRight="@dimen/marg_40px"
+                android:background="@drawable/mybank_radius_10px_none"
+                android:gravity="center"
+                android:paddingBottom="@dimen/marg_28px"
+                android:paddingTop="@dimen/marg_28px"
+                android:text="@string/next_desc"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

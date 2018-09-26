@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rel_main_pop"
+    style="@style/Both_Match_style" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            style="@style/Both_Match_style"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <FrameLayout
+                android:id="@+id/id_content"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.88" />
+
+            <View style="@style/view_line" />
+
+            <com.merchant.weight.FooterView
+                android:id="@+id/mFooterView"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.12" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
